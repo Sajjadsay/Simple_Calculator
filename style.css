@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    border: border-box;
+}
+h1{
+    display: inline-block;
+    border: 4px solid rgb(237, 97, 97) ;
+    border-radius: 5%;
+    background-color: rgb(234, 234, 76);
+    font-size: 3rem;
+}
+.container{
+    /* background-image: url(img.jpg); */
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+} 
+/* calculator outer body  */
+.calculator-body{
+    background-color: rgb(28, 27, 27);
+    /* background-image: url(Sayphoto.jpeg); */
+    background-size: cover;
+    height: 550px;
+    width: 350px;
+    border: 10px solid rgb(52, 52, 57);
+    border-radius: 5%;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: center;
+    box-shadow: 0 0 5px 10px rgba(8, 7, 7, 0.7);
+}
+/* screen div  */
+.input{
+    background-color: rgb(87, 109, 106);
+    height:70px;
+    width: 330px;
+    color: white;
+    font-size: 3.5rem;
+    font-family:Impact;
+    border: 1px solid white;
+    border-radius: 3%;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: right;
+}
+/* arthimatic part  */
+.bodmas{
+    /* background-color: rgb(68, 103, 92); */
+    height:50px ;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arth1{
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border: 2px solid transparent ;
+    border-radius: 20%;
+    font-family: arial;
+}
+.con{
+    height: 38px;
+    width: 55px;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.arth1:hover{
+    border: 2px solid rgb(180, 177, 177);
+}
+.arth1:active{
+    border: 2px solid black;
+}
+
+/* calculator number digits  */
+.digits{
+    /* background-color: pink; */
+    height: 375px;
+    width: 330px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content:start;
+    align-items:start;
+}
+.digit1{
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border: 2px solid transparent;
+    border-radius: 20%;
+    margin: 10px;
+    font-size: 3.5rem;
+    /* margin-left: 10px; */
+}
+.digit1:hover{
+    border: 2px solid rgb(180, 177, 177);
+}
+.digit1:active{
+    border: 2px solid black;
+}
+.equal{
+    height: 70px;
+    width: 175px;
+    /* background-color: red; */
+    color: red;
+    border-radius: 8%;
+}
